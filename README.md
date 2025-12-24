@@ -5,7 +5,7 @@ It simulates an ATS (Applicant Tracking System) to provide a match score, missin
 
 **Live Demo:** Not available for now 😔
 
-[!Screenshot]()
+![Screenshot](https://github.com/DEEPAK-RAMGIRI/RESUME-SELECTOR/blob/main/RESUME-SELECTOR.png)
 
 **Tech Stack:**
 
