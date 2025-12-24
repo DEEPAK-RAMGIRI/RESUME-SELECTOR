@@ -51,6 +51,26 @@ def pdftoimagetobase64Conversion(file):
     else:
         raise FileNotFoundError("No File Uploaded 😲")
     
+    
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background: linear-gradient(to top, #141e30 0%, #243b55 100%) !important;
+        background-attachment: fixed;
+        color: white; /* optional: make text readable */
+    }
+    .block-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+    
 st.title("RESUME SELECTOR")
 text = st.text_area("job description",key = "input")
 file = st.file_uploader("upload your resume")
