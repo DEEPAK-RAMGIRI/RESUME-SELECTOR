@@ -1,4 +1,4 @@
-# RESUME-SELECTOR
+<h1 align="center">  RESUME-SELECTOR</h1>
 
 Resume Selector is a Streamlit-based web application that evaluates a candidate’s resume against a given job description using LLM-based analysis.
 It simulates an ATS (Applicant Tracking System) to provide a match score, missing keywords, strengths, weaknesses, and improvement suggestions
